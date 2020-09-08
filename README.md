@@ -17,15 +17,18 @@ npm install
 ```
 
 
-APIキーの設定
-ルートに`.env`ファイルを作成し、githubのAPIキーを記載する
+**APIキーの設定**
+
+githubのpersonal access tokenを取得し、それを.envのAPI_KEYに記載する。
+https://docs.github.com/ja/github/authenticating-to-github/creating-a-personal-access-token
+
 
 ```
 # .env
 API_KEY=c44i983f9jfeq9jfj494qjf3r4wqf
 ```
 
-実行する
+**実行する**
 
 ```
 node create-test-case.js
