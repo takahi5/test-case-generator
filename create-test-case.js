@@ -8,7 +8,7 @@ const filterTestCase = (body) => {
   let testCases = [];
   const lines = body.split(/\r\n|\r|\n/);
   for (const line of lines) {
-    const matches = line.match(/^\-\s\[\s\](.*)$/);
+    const matches = line.match(/^\-\s\[[\s\|x]](.*)$/);
     if (matches) {
       const testCase = matches[1];
       if (testCase.length > 0) {
