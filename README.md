@@ -34,4 +34,9 @@ API_KEY=c44i983f9jfeq9jfj494qjf3r4wqf
 node create-test-case.js
 ```
 
-検証項目書 output.csv ができる
+カーソルで対象のリポジトリを選択する。  
+![node](https://user-images.githubusercontent.com/7026785/92456093-7169cb00-f1fd-11ea-8fd4-396aeab44f25.png)
+
+
+検証項目書 output.csv ができる。  
+(直近のclosedのプルリクエスト20件が対象です）
