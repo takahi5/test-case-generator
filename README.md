@@ -19,7 +19,7 @@ npm install
 
 **APIキーの設定**
 
-githubのpersonal access tokenを取得し、それを.envのAPI_KEYに記載する。
+githubのpersonal access tokenを取得し、それをルートに作成した.envのAPI_KEYに記載する。
 https://docs.github.com/ja/github/authenticating-to-github/creating-a-personal-access-token
 
 
